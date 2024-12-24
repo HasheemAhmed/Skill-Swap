@@ -55,7 +55,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact 📬
 For any inquiries or suggestions, feel free to reach out:
-- **Email**: your-email@example.com 📧
+- **Email**: hasheemasif@gmail.com 📧
 - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/hasheemahmed) 🔗
 
 ---
