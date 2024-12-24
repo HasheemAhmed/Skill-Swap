@@ -1,0 +1,291 @@
+.hero-section {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.hero-section h1 {
+    color: #212529;
+}
+
+.hero-section p {
+    color: #6c757d;
+}
+
+.hero-section .btn {
+    border-radius: 5px !important;
+}
+
+.btn1 {
+    background-color: #003169 !important;
+    color: white !important;
+}
+
+.btn2 {
+    background-color: white !important;
+    color: #003169 !important;
+    border: 2px solid #003169 !important;
+}
+
+.btn1:hover {
+    background-color: #001e40 !important;; 
+    color: white !important;;
+}
+
+.btn2:hover {
+    background-color: #003169 !important;;
+    color: white !important;;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+}
+
+.slides {
+    background-color: #eff4fa;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: calc(100% - 5px);
+}
+
+.slider {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    max-width: 900px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.heading {
+    margin-bottom: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid #003169;
+    display: block;
+    padding: 5px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-weight: bold;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.contain h2,
+.contain p {
+    color: #343a40;
+}
+
+/* Section Styles */
+.feature-section {
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styles */
+.feature-section img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    padding: 10px;
+}
+
+
+/* Text Styles */
+.feature-section h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #003169;
+    margin-bottom: 10px;
+}
+
+.feature-section p {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+/* Container Spacing */
+.contain {
+    padding: 60px 20px;
+}
+
+/* Skill Swap Section Styles */
+.skill-swap-section {
+    padding: 60px 0;
+    background-color: #eff4fa;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Headline */
+.skill-swap-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.skill-swap-section h2:hover {
+    color: #0056b3;
+    /* Change color on hover */
+}
+
+/* Paragraph */
+.skill-swap-section p {
+    font-size: 1.125rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* List items */
+.skill-swap-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-swap-section ul li {
+    font-size: 1.125rem;
+    color: #555;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.skill-swap-section ul li::before {
+    content: '\2022';
+    /* Bullet point */
+    color: #007bff;
+    /* Blue color for bullets */
+    font-size: 1.5rem;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+
+/* Button styling */
+.skill-swap-section .btn {
+    font-size: 1.125rem;
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: #003169;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skill-swap-section .btn:hover {
+    background-color: #001e40;
+    transform: translateY(-5px);
+    /* Slightly lift button on hover */
+}
+
+.skill-swap-section .btn:active {
+    transform: translateY(0);
+    /* Reset button position on click */
+}
+
+/* About Us Section Styles */
+.about-us-section {
+    padding: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Headline */
+.about-us-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0056b3;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.about-us-section p {
+    font-size: 1.2rem;
+    color: #212529;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+.about-us-section .btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background-color: white;
+    color: #001e40;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-us-section .btn:hover {
+    background-color: #0056b3;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.about-us-section .btn:active {
+    transform: translateY(0);
+}
+
+.about-us-section .fas {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 768px) {
+    .skill-swap-section h2 {
+        font-size: 2rem;
+    }
+
+    .skill-swap-section p,
+    .skill-swap-section ul li {
+        font-size: 1rem;
+    }
+
+    .skill-swap-section .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}

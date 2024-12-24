@@ -1,0 +1,22 @@
+.bg-blue{
+    background-color:  #003169;
+}
+
+.card {
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.line {
+    text-decoration: underline;
+    text-decoration-color: #003169; 
+    text-decoration-thickness: 3px; 
+    text-underline-offset: 10px; 
+}
+
+
